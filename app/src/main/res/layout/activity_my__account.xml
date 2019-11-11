@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image8"
+    tools:context=".My_Account">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="My Account"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/accno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="122dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/accname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/accno"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/bal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/accname"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/ifsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bal"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/imps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ifsc"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imps"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/email"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/noloan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mobile"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/adh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/noloan"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:id="@+id/pan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/adh"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+
+
+</RelativeLayout>

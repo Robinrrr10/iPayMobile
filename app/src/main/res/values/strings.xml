@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">iPayMobile</string>
+    <string name="bank_name">i Pay Bank</string>
+    <string name="email_api">http://192.168.40.1:8080/iPay/irest/login</string>
+    <string name="login_api">http://192.168.40.1:8080/register/SignIn</string>
+    <string name="transfer_api">http://192.168.40.1:8080/register/SignIn</string>
+    <string name="Logout_api">http://192.168.40.1:8080/register/SignIn</string>
+    <string name="get_all_ben_api">http://192.168.40.1:8080/register/SignIn</string>
+    <string name="get_ben_api">http://192.168.40.1:8080/register/SignIn</string>
+    <string name="transfer_money_api">http://192.168.40.1:8080/register/SignIn</string>
+</resources>
